@@ -17,8 +17,8 @@ public class ArcSoft {
 
     public static FaceEngine faceEngine(){
         //        从官网获取
-        String appId = "9qUt9t6upyoobDwLULaCLpsssu74bv45Q6v6H7xF8YEq";
-        String sdkKey = "Ap6YxurdvZLWS4tixJQ96jPYe5GHfDEzXZAQpDkQ112f";
+        String appId = "xxxx";
+        String sdkKey = "xx";
         FaceEngine faceEngine = new FaceEngine("C:\\Users\\xm\\Desktop\\人脸识别\\ArcSoft_ArcFace_Java_Windows_x64_V3.0\\libs\\WIN64");
         int errorCode = faceEngine.active(appId, sdkKey);
 

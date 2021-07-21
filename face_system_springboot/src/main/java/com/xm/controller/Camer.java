@@ -61,6 +61,7 @@ public class Camer {
 
         }
 
+//        test 照片为你本机存储的对比照片
         float v = arcSoft.faceRecognition("D:\\人脸识别模拟服务器\\test2.jpeg", "D:\\人脸识别模拟服务器\\test.jpeg",faceEngine);
         System.out.println("相似度为" + v);
         if (v==0){

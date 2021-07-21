@@ -32,7 +32,7 @@
       style="background: #d9d9d9"
     ></video>
     <!--canvas截取流-->
-    <canvas ref="canvas" width="500" height="376" v-if="isImg" hidden="true"></canvas>
+    <canvas ref="canvas" width="500" height="376" v-if="isImg" ></canvas>
     <p v-if="isImg">人脸相似度为：{{ acc }}</p>
   </div>
 </template>
