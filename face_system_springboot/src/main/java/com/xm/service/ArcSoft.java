@@ -28,6 +28,10 @@ public class ArcSoft {
         }
 
 
+
+
+
+
         ActiveFileInfo activeFileInfo=new ActiveFileInfo();
         errorCode = faceEngine.getActiveFileInfo(activeFileInfo);
         if (errorCode != ErrorInfo.MOK.getValue() && errorCode != ErrorInfo.MERR_ASF_ALREADY_ACTIVATED.getValue()) {
@@ -66,7 +70,6 @@ public class ArcSoft {
 
 
     public float faceRecognition(String path1, String path2,FaceEngine faceEngine){
-
         int errorCode;
         //人脸检测1
         ImageInfo imageInfo = getRGBData(new File(path1));
